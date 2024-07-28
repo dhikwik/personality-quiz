@@ -79,8 +79,7 @@ const App = () => {
 
   };
   const confettiDecor = () => {
-    console.log("confetti")
-    const end = Date.now() + 15 * 300;
+     const end = Date.now() + 15 * 300;
 
         const colors = ["#bb0000", "#ffffff"];
         frame();
