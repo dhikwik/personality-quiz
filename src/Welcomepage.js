@@ -2,6 +2,8 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const Welcome = () => {
+  console.log('Welcome component rendered');
+
   const navigate = useNavigate();
 
   const goToTestPage = () => {
