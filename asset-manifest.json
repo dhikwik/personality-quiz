@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/personality-quiz/static/css/main.f33a5bae.css",
+    "main.js": "/personality-quiz/static/js/main.b36c4d0c.js",
+    "static/media/background.jpg": "/personality-quiz/static/media/background.c4eafc2e46a0ae3998b3.jpg",
+    "index.html": "/personality-quiz/index.html",
+    "main.f33a5bae.css.map": "/personality-quiz/static/css/main.f33a5bae.css.map",
+    "main.b36c4d0c.js.map": "/personality-quiz/static/js/main.b36c4d0c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f33a5bae.css",
+    "static/js/main.b36c4d0c.js"
+  ]
+}
