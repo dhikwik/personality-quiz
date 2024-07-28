@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/personality-quiz/static/css/main.5336d360.css",
-    "main.js": "/personality-quiz/static/js/main.b36c4d0c.js",
+    "main.js": "/personality-quiz/static/js/main.02fe636c.js",
     "index.html": "/personality-quiz/index.html",
     "main.5336d360.css.map": "/personality-quiz/static/css/main.5336d360.css.map",
-    "main.b36c4d0c.js.map": "/personality-quiz/static/js/main.b36c4d0c.js.map"
+    "main.02fe636c.js.map": "/personality-quiz/static/js/main.02fe636c.js.map"
   },
   "entrypoints": [
     "static/css/main.5336d360.css",
-    "static/js/main.b36c4d0c.js"
+    "static/js/main.02fe636c.js"
   ]
 }
