@@ -1,27 +1,12 @@
-/* body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-} */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
-
- 
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 body {
   font-family: 'Poppins', sans-serif;
    display: flex;
   justify-content: center;
-  background-image: url('../public/background.jpg');
+  background-image: url('https://i.ibb.co/BLthwXc/background.jpg');
 
 }
-
 .container {
   width: 729px;
   padding: 165px;
