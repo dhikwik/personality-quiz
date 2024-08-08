@@ -14,8 +14,7 @@ const Question = ({ question, onAnswerChange }) => {
               onChange={() => onAnswerChange(choice)}
             />
             {choice}
-            {console.log("question choice",choice)}
-          </label>
+           </label>
         ))}
       </div>
     </div>

@@ -45,8 +45,7 @@ const App = () => {
     const updatedAnswers = [...answers];
     updatedAnswers[currentQuestionIndex] = choice;
     setAnswers(updatedAnswers);
-    console.log("updatedAnswers",updatedAnswers)
-  };
+   };
 
   const nextQuestion = () => {
     if (currentQuestionIndex < questions.length ) {
@@ -56,22 +55,28 @@ const App = () => {
   };
 
   const calculateResult = () => {
-    const counts = { E: 0, I: 0, S: 0, N: 0, T: 0, F: 0, J: 0, P: 0 };
+    let e = 0, i = 0, s = 0, n = 0, t = 0, f = 0, j = 0, p = 0;
 
-    answers.forEach(answer => {
-      if (answer) {
-        const trait = answer.split(" ")[1].slice(0, -1);
-        console.log("trait result",trait);
-        counts[trait]++;
+ 
+    answers.forEach((answer, index) => {
+      console.log(answer)
+      if(answer){
+      if (answer.includes('E')) e++;
+      if (answer.includes('I')) i++;
+      if (answer.includes('S')) s++;
+      if (answer.includes('N')) n++;
+      if (answer.includes('T')) t++;
+      if (answer.includes('F')) f++;
+      if (answer.includes('J')) j++;
+      if (answer.includes('P')) p++;
       }
     });
 
-    const mbti = [
-      counts.E > counts.I ? "E" : "I",
-      counts.S > counts.N ? "S" : "N",
-      counts.T > counts.F ? "T" : "F",
-      counts.J > counts.P ? "J" : "P"
-    ].join("");
+    const mbti =
+    (e > i ? 'E' : 'I') +
+    (s > n ? 'S' : 'N') +
+    (t > f ? 'T' : 'F') +
+    (j > p ? 'J' : 'P');
     console.log("result",result)
     setResult(mbti);
     confettiDecor();
